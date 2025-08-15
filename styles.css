@@ -27,6 +27,19 @@ body {
   flex-wrap: wrap;
 }
 
+.navbar1{
+  align-items: center;
+  justify-content: space-between;
+  background: var(--card);
+  padding: 1rem 2rem;
+  border-bottom: 2px solid #222;
+  flex-wrap: wrap;
+}
+
+.title {
+  text-align: center;
+}
+
 .logo {
   font-weight: bold;
   font-size: 1.5rem;
@@ -309,4 +322,13 @@ textarea {
     width: 100%;
     padding: 0.6rem 1rem;
   }
+}
+
+footer {
+  background: var(--card);
+  flex-wrap: wrap;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
 }
