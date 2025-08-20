@@ -1,0 +1,64 @@
+{
+  "Hero": {
+    "title": "Unlock Your Cosmic Destiny",
+    "description": "Discover personalized astrology insights and guidance for your life's journey through the stars.",
+    "button": "Start Your Reading"
+  },
+
+   "privacyPolicy": {
+    "title": "Privacy Policy",
+    "intro": "We at Astroway (\"we\" or \"astroway\") take the privacy of the information you provide us very seriously. We created this privacy policy to demonstrate our commitment to privacy. Please read this carefully to understand how we use any information you provide us at",
+    "points": {
+      "confidentiality": "Astroway guarantees confidentiality of our members' identity, birth details and any forecasts made using those details as much as possible under the applicable legal, regulatory and security environment.",
+      "noMisuse": "Astroway further guarantees that no direct or indirect use will be made by Astroway of any information that is revealed in the prediction for a member, except for the explicit purpose of communicating the horoscope charts and predictions back to the member.",
+      "profileAccess": "We allow members to access their user profiles and change information, as they deem necessary.",
+      "noSell": "We do not sell or rent your personally identifiable information to anyone."
+    },
+    "note": "As we keep adding new services and items, we suggest that you check back from time to time in order to understand how we treat your information. In case of change in our privacy policy, we will post those changes on this page so that you are always aware of what personal information we collect, how we use it and under what circumstances we disclose it. Your continued use of the site will constitute your acknowledgment of our Privacy Policy.",
+    "sections": {
+      "whatWeCollect": "What Personal Information We Collect",
+      "registrationData": {
+        "title": "Registration Data",
+        "desc": "During membership registration, Astroway collects personal information including your name, gender, birth information, email address, phone number and your place of birth and residence. This information is used to calculate your accurate horoscope."
+      },
+      "security": {
+        "title": "Security",
+        "desc": "We DO NOT collect any payment information on our website. Payment information is collected and processed in a secure manner by third-party payment gateways. We follow reasonable industry standards, technical measures and procedural safeguards to protect against unauthorized access and use of your supplied information."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "desc": "If you have any questions about this privacy statement, the practices of this site, or your dealings with this web site, you can contact us at"
+      }
+    }
+  },
+
+  "terms": {
+    "title": "Terms and Conditions",
+    "intro": "Welcome to Astroway. These terms and conditions outline the rules and regulations for the use of Astroway's website.",
+    "sections": {
+      "acceptance": {
+        "title": "Acceptance of Terms",
+        "desc": "By accessing and using this website, you accept and agree to be bound by the terms and provisions of this agreement."
+      },
+      "useLicense": {
+        "title": "Use License",
+        "desc": "Permission is granted to temporarily download one copy of the materials on Astroway's website for personal, non-commercial transitory viewing only.",
+        "bullets": {
+          "licenseNotTitleTransfer": "This is the grant of a license, not a transfer of title",
+          "noModifyCopy": "Under this license you may not modify or copy the materials",
+          "noCommercialPublicDisplay": "Use the materials for any commercial purpose or for any public display",
+          "noReverseEngineering": "Attempt to reverse engineer any software contained on the website"
+        }
+      },
+      "disclaimer": {
+        "title": "Disclaimer",
+        "desc": "The materials on Astroway's website are provided on an 'as is' basis. Astroway makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights."
+      },
+      "contact": {
+        "title": "Contact Information",
+        "desc": "If you have any questions about these Terms and Conditions, please contact us at",
+        "email": "customercare@astroway.com"
+      }
+    }
+  }
+}
