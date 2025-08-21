@@ -1,33 +1,41 @@
-"use client"
-import { useState } from "react"
+"use client";
+import { useState } from "react";
 
 export default function FeedbackSection() {
   const [formData, setFormData] = useState({
     service: "",
     experience: "",
     feedback: "",
-  })
+  });
 
   const handleSubmit = (e) => {
-    e.preventDefault()
-    alert("Thank you for your feedback!")
-    setFormData({ service: "", experience: "", feedback: "" })
-  }
+    e.preventDefault();
+    alert("Thank you for your feedback!");
+    setFormData({ service: "", experience: "", feedback: "" });
+  };
 
   const handleChange = (e) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
-    })
-  }
+    });
+  };
 
   return (
-    <section id="feedback" className="bg-[#23252b] rounded-xl p-6 md:p-8 mx-4 md:mx-8 mb-8">
-      <h2 className="text-2xl md:text-3xl font-bold text-white mb-6">Share Your Experience</h2>
+    <section
+      id="feedback"
+      className="max-w-3xl mx-auto bg-card border border-border rounded-xl p-6 md:p-8 lg:p-10 mb-8 shadow-sm"
+    >
+      <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-6 md:mb-8">
+        Share Your Experience
+      </h2>
 
-      <form onSubmit={handleSubmit} className="space-y-6">
+      <form onSubmit={handleSubmit} className="space-y-6 md:space-y-8">
         <div className="form-group">
-          <label htmlFor="service" className="block mb-2 font-medium text-white">
+          <label
+            htmlFor="service"
+            className="block mb-3 font-medium text-foreground text-sm md:text-base"
+          >
             Which service are you interested in?
           </label>
           <select
@@ -35,7 +43,7 @@ export default function FeedbackSection() {
             name="service"
             value={formData.service}
             onChange={handleChange}
-            className="w-full bg-[#23252b] text-white border border-[#444] rounded-lg p-3 text-base"
+            className="w-full bg-background text-foreground border border-border rounded-lg p-3 md:p-4 text-base focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary transition-all duration-200 hover:border-primary/50"
             required
           >
             <option value="">Select a service</option>
@@ -47,34 +55,41 @@ export default function FeedbackSection() {
         </div>
 
         <div className="form-group">
-          <label className="block mb-3 font-medium text-white">
+          <label className="block mb-4 font-medium text-foreground text-sm md:text-base">
             How would you rate your experience with astrology?
           </label>
-          <div className="radio-group space-y-3">
-            {["Beginner - New to astrology", "Intermediate - Some knowledge", "Advanced - Very experienced"].map(
-              (option, index) => (
-                <label
-                  key={index}
-                  className="flex items-center bg-[#23252b] border border-[#444] rounded-lg p-4 cursor-pointer hover:border-[#b3e0ff] hover:bg-[#232b33] transition-all duration-200"
-                >
-                  <input
-                    type="radio"
-                    name="experience"
-                    value={option}
-                    checked={formData.experience === option}
-                    onChange={handleChange}
-                    className="w-5 h-5 mr-3 accent-[#b3e0ff]"
-                    required
-                  />
-                  <span className="text-white font-medium">{option}</span>
-                </label>
-              ),
-            )}
+          <div className="radio-group space-y-3 md:space-y-4">
+            {[
+              "Beginner - New to astrology",
+              "Intermediate - Some knowledge",
+              "Advanced - Very experienced",
+            ].map((option, index) => (
+              <label
+                key={index}
+                className="flex items-center bg-background border border-border rounded-lg p-4 md:p-5 cursor-pointer hover:border-primary hover:bg-accent/50 transition-all duration-200 group"
+              >
+                <input
+                  type="radio"
+                  name="experience"
+                  value={option}
+                  checked={formData.experience === option}
+                  onChange={handleChange}
+                  className="w-4 h-4 md:w-5 md:h-5 mr-3 md:mr-4 accent-primary focus:ring-2 focus:ring-primary"
+                  required
+                />
+                <span className="text-foreground font-medium text-sm md:text-base group-hover:text-primary transition-colors duration-200">
+                  {option}
+                </span>
+              </label>
+            ))}
           </div>
         </div>
 
         <div className="form-group">
-          <label htmlFor="feedback" className="block mb-2 font-medium text-white">
+          <label
+            htmlFor="feedback"
+            className="block mb-3 font-medium text-foreground text-sm md:text-base"
+          >
             Tell us what you're looking for or any questions you have:
           </label>
           <textarea
@@ -83,7 +98,7 @@ export default function FeedbackSection() {
             value={formData.feedback}
             onChange={handleChange}
             rows="4"
-            className="w-full bg-[#23252b] text-white border border-[#444] rounded-lg p-3 text-base resize-none"
+            className="w-full bg-background text-foreground border border-border rounded-lg p-3 md:p-4 text-base resize-none focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary transition-all duration-200 hover:border-primary/50"
             placeholder="Share your thoughts, questions, or what you hope to discover..."
             required
           ></textarea>
@@ -91,11 +106,11 @@ export default function FeedbackSection() {
 
         <button
           type="submit"
-          className="submit-btn bg-[#dbeafe] text-[#222] border-none rounded-full px-8 py-3 font-semibold cursor-pointer text-base hover:bg-[#b3e0ff] transition-colors duration-200 w-full md:w-auto"
+          className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-lg px-6 md:px-8 py-3 md:py-4 font-semibold cursor-pointer text-base transition-all duration-200 w-full md:w-auto focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background shadow-sm hover:shadow-md"
         >
           Submit Feedback
         </button>
       </form>
     </section>
-  )
+  );
 }
