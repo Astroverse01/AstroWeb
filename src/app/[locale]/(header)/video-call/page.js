@@ -2,7 +2,7 @@ import React from 'react'
 
 function page() {
   return (
-    <div>Video Call</div>
+    <div>Video Calll</div>
   )
 }
 
