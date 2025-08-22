@@ -37,7 +37,7 @@ export default function CookiePolicyPage() {
               </p>
               <p className="text-foreground leading-relaxed">
                 At Astroway, we use cookies responsibly to enhance your cosmic journey while respecting your privacy and
-                maintaining the confidentiality that's essential to our astrological consultations.
+                maintaining the confidentiality that&apos;s essential to our astrological consultations.
               </p>
             </CardContent>
           </Card>
@@ -109,7 +109,7 @@ export default function CookiePolicyPage() {
             <CardContent className="p-6">
               <h2 className="text-2xl font-bold text-foreground mb-4">Managing Your Cookie Preferences</h2>
               <p className="text-foreground leading-relaxed mb-4">
-                You have full control over your cookie preferences. Here's how you can manage them:
+                You have full control over your cookie preferences. Here&apos;s how you can manage them:
               </p>
 
               <div className="space-y-4">
@@ -124,7 +124,7 @@ export default function CookiePolicyPage() {
                 <div>
                   <h3 className="text-lg font-semibold text-foreground mb-2">Cookie Consent Banner</h3>
                   <p className="text-muted-foreground">
-                    When you first visit our website, you'll see a cookie consent banner where you can choose which
+                    When you first visit our website, you&apos;ll see a cookie consent banner where you can choose which
                     types of cookies to accept or reject.
                   </p>
                 </div>
@@ -187,7 +187,7 @@ export default function CookiePolicyPage() {
               <h2 className="text-2xl font-bold text-foreground mb-4">Questions About Our Cookie Policy?</h2>
               <p className="text-foreground leading-relaxed mb-4">
                 If you have any questions about our use of cookies or need assistance managing your preferences, please
-                don't hesitate to contact us:
+                don&apos;t hesitate to contact us:
               </p>
               <div className="space-y-2 text-muted-foreground">
                 <p>
@@ -209,8 +209,8 @@ export default function CookiePolicyPage() {
               <h2 className="text-2xl font-bold text-foreground mb-4">Policy Updates</h2>
               <p className="text-foreground leading-relaxed">
                 We may update this Cookie Policy from time to time to reflect changes in our practices or for legal and
-                regulatory reasons. We'll notify you of any significant changes by posting the updated policy on our
-                website and updating the "Last Updated" date above.
+                regulatory reasons. We&apos;ll notify you of any significant changes by posting the updated policy on our
+                website and updating the &quot;Last Updated&quot; Last date above.
               </p>
             </CardContent>
           </Card>

@@ -41,7 +41,7 @@ export default function ContactPage() {
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">Contact Us</h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Ready to explore your cosmic journey? We're here to help guide you through the stars.
+            Ready to explore your cosmic journey? We&apos;re here to help guide you through the stars.
           </p>
         </div>
 

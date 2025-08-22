@@ -45,7 +45,7 @@ export default function AboutPage() {
                   <ChatIcon className="text-primary w-20 h-20" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Live Chats & Calls</h3>
-                <p className="text-muted-foreground">Instant consultations when life's questions call.</p>
+                <p className="text-muted-foreground">Instant consultations when life&apos;s questions call.</p>
               </CardContent>
             </Card>
 
@@ -66,7 +66,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Kundli Analysis</h3>
                 <p className="text-muted-foreground">
-                  Personalized interpretations of your birth chart to understand life's patterns.
+                  Personalized interpretations of your birth chart to understand life&apos;s patterns.
                 </p>
               </CardContent>
             </Card>
@@ -142,7 +142,7 @@ export default function AboutPage() {
               <div className="border-l-4 border-primary pl-6">
                 <h3 className="text-xl font-semibold mb-2 text-foreground">Inclusive by Design</h3>
                 <p className="text-muted-foreground">
-                  Whether you're new to astrology or seeking deeper exploration, you'll find a welcoming, judgment-free
+                  Whether you&apos;re new to astrology or seeking deeper exploration, you&apos;ll find a welcoming, judgment-free
                   environment here.
                 </p>
               </div>

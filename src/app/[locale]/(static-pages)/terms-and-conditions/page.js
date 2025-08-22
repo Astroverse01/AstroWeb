@@ -31,7 +31,7 @@ export default function TermsConditionsPage() {
             <CardContent className="p-6">
               <h2 className="text-2xl font-bold text-foreground mb-4">Welcome to Astroway</h2>
               <p className="text-foreground leading-relaxed mb-4">
-                These Terms and Conditions ("Terms") govern your use of the Astroway website and services. By accessing
+                These Terms and Conditions &quot;Terms&quot; govern your use of the Astroway website and services. By accessing
                 our website at{" "}
                 <a href="https://astroway.com" className="text-primary hover:underline">
                   astroway.com

@@ -234,8 +234,8 @@ export default function PrivacyPolicyPage() {
               <h2 className="text-2xl font-bold text-foreground mb-4">Policy Updates</h2>
               <p className="text-foreground leading-relaxed">
                 We may update this Privacy Policy periodically to reflect changes in our practices or legal
-                requirements. We'll notify you of significant changes via email or website notification, and the updated
-                policy will include a new "Last Updated" date.
+                requirements. We&apos;ll notify you of significant changes via email or website notification, and the updated
+                policy will include a new &quot;Last Updated&quot; date.
               </p>
             </CardContent>
           </Card>
