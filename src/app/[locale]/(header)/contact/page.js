@@ -1,13 +1,13 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { ContactIcon } from "@/components/icons/contact-icon"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { Label } from "@/components/ui/label"
-import { Mail, Phone, MapPin, Clock } from "lucide-react"
+import { useState } from "react";
+import { ContactIcon } from "@/components/icons/contact-icon";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Label } from "@/components/ui/label";
+import { Mail, Phone, MapPin, Clock } from "lucide-react";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -15,31 +15,52 @@ export default function ContactPage() {
     email: "",
     subject: "",
     message: "",
-  })
+  });
+  const [submitting, setSubmitting] = useState(false);
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    // Handle form submission here
-    console.log("Form submitted:", formData)
-  }
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setSubmitting(true);
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...formData }),
+      });
+
+      const result = await res.json().catch(() => ({}));
+      if (res.ok && (result?.success || result?.result === "success")) {
+        alert("✅ Message sent! We'll get back to you soon.");
+        setFormData({ name: "", email: "", subject: "", message: "" });
+      } else {
+        alert("⚠️ Submission failed. Please try again.");
+      }
+    } catch (err) {
+      console.error(err);
+      alert("❌ There was an error. Please try again later.");
+    } finally {
+      setSubmitting(false);
+    }
+  };
 
   const handleChange = (e) => {
     setFormData((prev) => ({
       ...prev,
       [e.target.name]: e.target.value,
-    }))
-  }
+    }));
+  };
 
   return (
     <div className="min-h-screen bg-background">
-
       <main className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Hero Section */}
         <div className="text-center mb-16">
           <div className="flex justify-center mb-8">
             <ContactIcon className="text-primary w-24 h-24" />
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">Contact Us</h1>
+          <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
+            Contact Us
+          </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Ready to explore your cosmic journey? We&apos;re here to help guide you through the stars.
           </p>
@@ -56,7 +77,13 @@ export default function ContactPage() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <Label htmlFor="name">Name</Label>
-                    <Input id="name" name="name" value={formData.name} onChange={handleChange} required />
+                    <Input
+                      id="name"
+                      name="name"
+                      value={formData.name}
+                      onChange={handleChange}
+                      required
+                    />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="email">Email</Label>
@@ -73,7 +100,13 @@ export default function ContactPage() {
 
                 <div className="space-y-2">
                   <Label htmlFor="subject">Subject</Label>
-                  <Input id="subject" name="subject" value={formData.subject} onChange={handleChange} required />
+                  <Input
+                    id="subject"
+                    name="subject"
+                    value={formData.subject}
+                    onChange={handleChange}
+                    required
+                  />
                 </div>
 
                 <div className="space-y-2">
@@ -88,8 +121,8 @@ export default function ContactPage() {
                   />
                 </div>
 
-                <Button type="submit" className="w-full">
-                  Send Message
+                <Button type="submit" className="w-full" disabled={submitting}>
+                  {submitting ? "Sending..." : "Send Message"}
                 </Button>
               </form>
             </CardContent>
@@ -153,5 +186,5 @@ export default function ContactPage() {
         </div>
       </main>
     </div>
-  )
+  );
 }
