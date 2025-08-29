@@ -18,12 +18,17 @@ export default function Body() {
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight">{t("title")}</h1>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">{t("description")}</p>
           <div>
-            <button
+            {/* <button
               onClick={scrollToFeedback}
               className="bg-primary text-primary-foreground font-bold px-8 py-3 rounded-full hover:bg-primary/90 transition-colors duration-300 text-lg"
             >
               {t("button")}
-            </button>
+            </button> */}
+            <a
+              href="/apk/astroway.apk" // replace with your actual APK file path or download link
+              download
+              className="bg-primary text-primary-foreground font-bold px-8 py-3 rounded-full hover:bg-primary/90 transition-colors duration-300 text-lg"
+            >{t("button")}</a>
           </div>
         </div>
 
