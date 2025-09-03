@@ -1,6 +1,6 @@
 import AppIcon from "@/components/icons/app-icon"
 import Link from "next/link"
-import { Facebook, Instagram, Youtube, Twitter, Mail } from "lucide-react"
+import { Instagram, Youtube, Twitter, Mail, Linkedin } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -18,28 +18,28 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4 pt-2">
               <Link
-                href="#"
+                href="https://www.instagram.com/astroway_official"
                 className="text-muted-foreground hover:text-primary transition-colors duration-200 hover:scale-110 transform"
                 aria-label="Instagram"
               >
                 <Instagram size={22} />
               </Link>
-              <Link
-                href="#"
+              {/* <Link
+                href="https://www.linkedin.com/in/gopal-kothari-04844936a"
                 className="text-muted-foreground hover:text-primary transition-colors duration-200 hover:scale-110 transform"
-                aria-label="Facebook"
-              >
-                <Facebook size={22} />
-              </Link>
+                aria-label="Linkedin"
+                >
+                <Linkedin size={22} />
+              </Link> */}
               <Link
-                href="#"
+                href="https://www.youtube.com/@Astroway-d6x"
                 className="text-muted-foreground hover:text-primary transition-colors duration-200 hover:scale-110 transform"
                 aria-label="YouTube"
-              >
+                >
                 <Youtube size={22} />
               </Link>
               <Link
-                href="#"
+                href="https://x.com/the_astroway"
                 className="text-muted-foreground hover:text-primary transition-colors duration-200 hover:scale-110 transform"
                 aria-label="Twitter"
               >

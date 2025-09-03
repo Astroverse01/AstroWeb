@@ -319,18 +319,17 @@ export default function TermsConditionsPage() {
                 <p>
                   <strong>Email:</strong>{" "}
                   <a
-                    href="mailto:legal@astroway.com"
+                    href="mailto:astroway.customcare@gmail.com"
                     className="text-primary hover:underline"
                   >
-                    legal@astroway.com
+                    astroway.customcare@gmail.com
                   </a>
                 </p>
-                <p>
+                {/* <p>
                   <strong>Phone:</strong> +1 (555) 123-STAR
-                </p>
+                </p> */}
                 <p>
-                  <strong>Address:</strong> 123 Cosmic Avenue, Starlight City,
-                  SC 12345
+                  <strong>Address:</strong> J-139/1, Kotputli, Sikar, Rajasthan, 
                 </p>
               </div>
             </CardContent>

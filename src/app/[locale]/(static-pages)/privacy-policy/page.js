@@ -214,15 +214,15 @@ export default function PrivacyPolicyPage() {
               <div className="space-y-2 text-muted-foreground">
                 <p>
                   <strong>Email:</strong>{" "}
-                  <a href="mailto:privacy@astroway.com" className="text-primary hover:underline">
-                    privacy@astroway.com
+                  <a href="mailto:astroway.customcare@gmail.com" className="text-primary hover:underline">
+                  astroway.customcare@gmail.com
                   </a>
                 </p>
-                <p>
+                {/* <p>
                   <strong>Phone:</strong> +1 (555) 123-STAR
-                </p>
+                </p> */}
                 <p>
-                  <strong>Address:</strong> 123 Cosmic Avenue, Starlight City, SC 12345
+                  <strong>Address:</strong> J-139/1, Kotputli, Sikar, Rajasthan
                 </p>
               </div>
             </CardContent>

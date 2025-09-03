@@ -191,13 +191,13 @@ export default function CookiePolicyPage() {
               </p>
               <div className="space-y-2 text-muted-foreground">
                 <p>
-                  <strong>Email:</strong> privacy@astroway.com
+                  <strong>Email:</strong> astroway.customcare@gmail.com
                 </p>
+                {/* <p>
+                  <strong>Phone:</strong> +91 8941841284
+                </p> */}
                 <p>
-                  <strong>Phone:</strong> +1 (555) 123-STAR
-                </p>
-                <p>
-                  <strong>Address:</strong> 123 Cosmic Avenue, Starlight City, SC 12345
+                  <strong>Address:</strong> J-139/1, Kotputli, Sikar, Rajasthan
                 </p>
               </div>
             </CardContent>

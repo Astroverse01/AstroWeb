@@ -136,25 +136,25 @@ export default function ContactPage() {
                   <Mail className="text-primary mt-1 flex-shrink-0" size={20} />
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Email</h3>
-                    <p className="text-muted-foreground">support@astroway.com</p>
-                    <p className="text-muted-foreground">consultations@astroway.com</p>
+                    <p className="text-muted-foreground">astroway.customcare@gmail.com</p>
+                    {/* <p className="text-muted-foreground">consultations@astroway.com</p> */}
                   </div>
                 </div>
               </CardContent>
             </Card>
 
-            <Card>
+            {/* <Card>
               <CardContent className="p-6">
                 <div className="flex items-start space-x-4">
                   <Phone className="text-primary mt-1 flex-shrink-0" size={20} />
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Phone</h3>
-                    <p className="text-muted-foreground">+1 (555) 123-STAR</p>
-                    <p className="text-muted-foreground">+1 (555) 123-7827</p>
+                    <p className="text-muted-foreground">+91 8355921171</p>
+                    <p className="text-muted-foreground">+91 8941841284</p>
                   </div>
                 </div>
               </CardContent>
-            </Card>
+            </Card> */}
 
             <Card>
               <CardContent className="p-6">
@@ -175,9 +175,9 @@ export default function ContactPage() {
                   <MapPin className="text-primary mt-1 flex-shrink-0" size={20} />
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Address</h3>
-                    <p className="text-muted-foreground">123 Cosmic Avenue</p>
-                    <p className="text-muted-foreground">Starlight City, SC 12345</p>
-                    <p className="text-muted-foreground">United States</p>
+                    <p className="text-muted-foreground">J-139/1,</p>
+                    <p className="text-muted-foreground">Kotputli,</p>
+                    <p className="text-muted-foreground">Sikar, Rajasthan</p>
                   </div>
                 </div>
               </CardContent>
