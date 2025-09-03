@@ -265,18 +265,13 @@ export default function TermsConditionsPage() {
                       Technical issues preventing service delivery (full refund)
                     </li>
                     <li>
-                      Cancellation 24+ hours before scheduled consultation (full
-                      refund)
+                    If a user reports any issue in a session within 24 hours, we will cross-verify the report, and if found valid, the money will be refunded within 2–3 working days (full refund)
                     </li>
                     <li>
                       Unsatisfactory service quality (case-by-case review)
                     </li>
                     <li>
                       Duplicate charges or billing errors (immediate correction)
-                    </li>
-                    <li>
-                      If user reports the respective session within 24 hours,
-                      refunds will be issued after platform verification.
                     </li>
                   </ul>
                 </div>
