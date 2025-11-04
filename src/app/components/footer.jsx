@@ -134,10 +134,10 @@ export default function Footer() {
             <p className="text-muted-foreground text-sm">&copy; 2026 Astroway. All rights reserved.</p>
             <p className="text-muted-foreground text-sm">
               <a
-                href="mailto:customercare@astroway.com"
+                href="mailto:astroway.customcare@gmail.com"
                 className="hover:text-primary transition-colors duration-200 font-medium"
               >
-                customercare@astroway.com
+                astroway.customcare@gmail.com
               </a>
             </p>
           </div>

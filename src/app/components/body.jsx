@@ -25,7 +25,7 @@ export default function Body() {
               {t("button")}
             </button> */}
             <a
-              href="/apk/astroway.apk" // replace with your actual APK file path or download link
+              href="https://play.google.com/store/apps/details?id=com.astrowayuser&pcampaignid=web_share" // replace with your actual APK file path or download link
               download
               className="bg-primary text-primary-foreground font-bold px-8 py-3 rounded-full hover:bg-primary/90 transition-colors duration-300 text-lg"
             >{t("button")}</a>
