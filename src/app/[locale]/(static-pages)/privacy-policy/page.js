@@ -12,7 +12,7 @@ export default function PrivacyPolicyPage() {
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">Privacy Policy</h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Your privacy and confidentiality are our highest priorities at Astroway
+            Your privacy and confidentiality are our highest priorities at Astrosway
           </p>
         </div>
 
@@ -31,15 +31,15 @@ export default function PrivacyPolicyPage() {
             <CardContent className="p-6">
               <h2 className="text-2xl font-bold text-foreground mb-4">Our Commitment to Your Privacy</h2>
               <p className="text-foreground leading-relaxed mb-4">
-                At Astroway, we understand that seeking astrological guidance is deeply personal. Your trust is sacred
+                At Astrosway, we understand that seeking astrological guidance is deeply personal. Your trust is sacred
                 to us, and we are committed to protecting your privacy with the highest standards of confidentiality and
                 security.
               </p>
               <p className="text-foreground leading-relaxed">
                 This Privacy Policy explains how we collect, use, protect, and handle your personal information when you
                 visit our website at{" "}
-                <a href="https://astroway.com" className="text-primary hover:underline">
-                  astroway.com
+                <a href="https://astrosway.com" className="text-primary hover:underline">
+                  astrosway.com
                 </a>{" "}
                 and use our services.
               </p>
@@ -89,7 +89,7 @@ export default function PrivacyPolicyPage() {
                 <div>
                   <h3 className="text-xl font-semibold text-primary mb-3">Registration Information</h3>
                   <p className="text-foreground leading-relaxed mb-3">
-                    When you create an account with Astroway, we collect:
+                    When you create an account with Astrosway, we collect:
                   </p>
                   <ul className="list-disc list-inside text-muted-foreground space-y-1">
                     <li>Name and contact information (email, phone number)</li>

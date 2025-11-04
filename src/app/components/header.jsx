@@ -84,7 +84,7 @@ export default function Header() {
       <div className="flex items-center gap-2 font-bold text-xl md:text-2xl text-foreground tracking-wide">
         <AppIcon className="w-8 h-8 text-primary" />
         <Link href="/" className="hover:text-primary transition-colors duration-200">
-          Astroway
+          Astrosway
         </Link>
       </div>
 

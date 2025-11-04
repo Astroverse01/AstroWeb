@@ -14,7 +14,7 @@ export default function TermsConditionsPage() {
             Terms & Conditions
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Understanding the terms of service for your Astroway experience
+            Understanding the terms of service for your Astrosway experience
           </p>
         </div>
 
@@ -32,16 +32,16 @@ export default function TermsConditionsPage() {
           <Card>
             <CardContent className="p-6">
               <h2 className="text-2xl font-bold text-foreground mb-4">
-                Welcome to Astroway
+                Welcome to Astrosway
               </h2>
               <p className="text-foreground leading-relaxed mb-4">
                 These Terms and Conditions &quot;Terms&quot; govern your use of
-                the Astroway website and services. By accessing our website at{" "}
+                the Astrosway website and services. By accessing our website at{" "}
                 <a
-                  href="https://astroway.com"
+                  href="https://astrosway.com"
                   className="text-primary hover:underline"
                 >
-                  astroway.com
+                  astrosway.com
                 </a>{" "}
                 or using our services, you agree to be bound by these Terms.
               </p>
@@ -85,7 +85,7 @@ export default function TermsConditionsPage() {
                 Our Services
               </h2>
               <p className="text-foreground leading-relaxed mb-4">
-                Astroway provides astrological consultation services including:
+                Astrosway provides astrological consultation services including:
               </p>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="border-l-4 border-primary pl-6">
@@ -163,7 +163,7 @@ export default function TermsConditionsPage() {
                 Your Responsibilities
               </h2>
               <p className="text-foreground leading-relaxed mb-4">
-                As a user of Astroway services, you agree to:
+                As a user of Astrosway services, you agree to:
               </p>
               <div className="space-y-4">
                 <div className="bg-muted/50 p-4 rounded-lg">
@@ -215,7 +215,7 @@ export default function TermsConditionsPage() {
               <div className="bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800 p-6 rounded-lg">
                 <p className="text-foreground leading-relaxed mb-4">
                   <strong>Entertainment and Guidance Purpose:</strong>{" "}
-                  Astrological services provided by Astroway are for
+                  Astrological services provided by Astrosway are for
                   entertainment, self-reflection, and guidance purposes only.
                   They should not be considered as:
                 </p>
@@ -286,7 +286,7 @@ export default function TermsConditionsPage() {
                 Limitation of Liability
               </h2>
               <p className="text-foreground leading-relaxed mb-4">
-                To the fullest extent permitted by law, Astroway and its
+                To the fullest extent permitted by law, Astrosway and its
                 astrologers shall not be liable for any indirect, incidental,
                 special, consequential, or punitive damages arising from your
                 use of our services.

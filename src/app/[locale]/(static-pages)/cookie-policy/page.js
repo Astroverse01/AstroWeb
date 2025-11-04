@@ -13,7 +13,7 @@ export default function CookiePolicyPage() {
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">Cookie Policy</h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Understanding how we use cookies to enhance your Astroway experience
+            Understanding how we use cookies to enhance your Astrosway experience
           </p>
         </div>
 
@@ -36,7 +36,7 @@ export default function CookiePolicyPage() {
                 provide you with a better experience by remembering your preferences and improving our services.
               </p>
               <p className="text-foreground leading-relaxed">
-                At Astroway, we use cookies responsibly to enhance your cosmic journey while respecting your privacy and
+                At Astrosway, we use cookies responsibly to enhance your cosmic journey while respecting your privacy and
                 maintaining the confidentiality that&apos;s essential to our astrological consultations.
               </p>
             </CardContent>
@@ -168,7 +168,7 @@ export default function CookiePolicyPage() {
             <CardContent className="p-6">
               <h2 className="text-2xl font-bold text-foreground mb-4">Your Privacy Matters</h2>
               <p className="text-foreground leading-relaxed mb-4">
-                At Astroway, we understand that privacy is paramount, especially when seeking spiritual and personal
+                At Astrosway, we understand that privacy is paramount, especially when seeking spiritual and personal
                 guidance. Our cookie policy aligns with our commitment to:
               </p>
               <ul className="list-disc list-inside text-muted-foreground space-y-2">
@@ -191,7 +191,7 @@ export default function CookiePolicyPage() {
               </p>
               <div className="space-y-2 text-muted-foreground">
                 <p>
-                  <strong>Email:</strong> astroway.customcare@gmail.com
+                  <strong>Email:</strong> astrosway.customcare@gmail.com
                 </p>
                 {/* <p>
                   <strong>Phone:</strong> +91 8941841284
