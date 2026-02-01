@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+  <!-- English (en) - Primary Language -->
+  <!-- Homepage -->
+  <url>
+    <loc>https://astrosway.com/en</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://astrosway.com/en"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://astrosway.com/hi"/>
+    <xhtml:link rel="alternate" hreflang="gu" href="https://astrosway.com/gu"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://astrosway.com"/>
+  </url>
+  
+  <!-- Hindi (hi) -->
+  <url>
+    <loc>https://astrosway.com/hi</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://astrosway.com/en"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://astrosway.com/hi"/>
+    <xhtml:link rel="alternate" hreflang="gu" href="https://astrosway.com/gu"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://astrosway.com"/>
+  </url>
+  
+  <!-- Gujarati (gu) -->
+  <url>
+    <loc>https://astrosway.com/gu</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://astrosway.com/en"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://astrosway.com/hi"/>
+    <xhtml:link rel="alternate" hreflang="gu" href="https://astrosway.com/gu"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://astrosway.com"/>
+  </url>
+  
+  <!-- English Pages -->
+  <url>
+    <loc>https://astrosway.com/en/about</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://astrosway.com/en/about"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://astrosway.com/hi/about"/>
+    <xhtml:link rel="alternate" hreflang="gu" href="https://astrosway.com/gu/about"/>
+  </url>
+  
+  <url>
+    <loc>https://astrosway.com/en/contact</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://astrosway.com/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://astrosway.com/hi/contact"/>
+    <xhtml:link rel="alternate" hreflang="gu" href="https://astrosway.com/gu/contact"/>
+  </url>
+  
+  <url>
+    <loc>https://astrosway.com/en/services</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://astrosway.com/en/services"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://astrosway.com/hi/services"/>
+    <xhtml:link rel="alternate" hreflang="gu" href="https://astrosway.com/gu/services"/>
+  </url>
+  
+  <url>
+    <loc>https://astrosway.com/en/daily-horoscope</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://astrosway.com/en/daily-horoscope"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://astrosway.com/hi/daily-horoscope"/>
+    <xhtml:link rel="alternate" hreflang="gu" href="https://astrosway.com/gu/daily-horoscope"/>
+  </url>
+  
+  <!-- Hindi Pages -->
+  <url>
+    <loc>https://astrosway.com/hi/about</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://astrosway.com/en/about"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://astrosway.com/hi/about"/>
+    <xhtml:link rel="alternate" hreflang="gu" href="https://astrosway.com/gu/about"/>
+  </url>
+  
+  <url>
+    <loc>https://astrosway.com/hi/contact</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://astrosway.com/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://astrosway.com/hi/contact"/>
+    <xhtml:link rel="alternate" hreflang="gu" href="https://astrosway.com/gu/contact"/>
+  </url>
+  
+  <!-- Gujarati Pages -->
+  <url>
+    <loc>https://astrosway.com/gu/about</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://astrosway.com/en/about"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://astrosway.com/hi/about"/>
+    <xhtml:link rel="alternate" hreflang="gu" href="https://astrosway.com/gu/about"/>
+  </url>
+  
+  <url>
+    <loc>https://astrosway.com/gu/contact</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://astrosway.com/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://astrosway.com/hi/contact"/>
+    <xhtml:link rel="alternate" hreflang="gu" href="https://astrosway.com/gu/contact"/>
+  </url>
+  
+  <!-- Policy Pages (English) -->
+  <url>
+    <loc>https://astrosway.com/en/privacy-policy</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://astrosway.com/en/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://astrosway.com/hi/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="gu" href="https://astrosway.com/gu/privacy-policy"/>
+  </url>
+  
+  <url>
+    <loc>https://astrosway.com/en/terms-and-conditions</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://astrosway.com/en/terms-and-conditions"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://astrosway.com/hi/terms-and-conditions"/>
+    <xhtml:link rel="alternate" hreflang="gu" href="https://astrosway.com/gu/terms-and-conditions"/>
+  </url>
+  
+  <url>
+    <loc>https://astrosway.com/en/cookie-policy</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://astrosway.com/en/cookie-policy"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://astrosway.com/hi/cookie-policy"/>
+    <xhtml:link rel="alternate" hreflang="gu" href="https://astrosway.com/gu/cookie-policy"/>
+  </url>
+  
+  <!-- Default/root URLs (optional - for non-locale direct access) -->
+  <url>
+    <loc>https://astrosway.com/</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://astrosway.com/en"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://astrosway.com/hi"/>
+    <xhtml:link rel="alternate" hreflang="gu" href="https://astrosway.com/gu"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://astrosway.com"/>
+  </url>
+  
+</urlset>

@@ -1,0 +1,139 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /*?*
+Disallow: /*&*
+
+# Disallow all locale-specific private/dashboard pages
+Disallow: /*/admin-dashboard
+Disallow: /*/raised-astro-issue
+Disallow: /*/raised-user-issue
+Disallow: /*/astro-document
+Disallow: /*/astro-image
+Disallow: /*/astro-info
+Disallow: /*/astro-language
+Disallow: /*/astro-otp
+Disallow: /*/astro-skills
+Disallow: /*/astro-specialization
+Disallow: /*/astro-success
+Disallow: /*/astro-analytics
+Disallow: /*/astro-audio-call
+Disallow: /*/astro-bank-details
+Disallow: /*/astro-chat
+Disallow: /*/astro-help-support
+Disallow: /*/astro-leaderboard
+Disallow: /*/astro-order-history
+Disallow: /*/astro-profile
+Disallow: /*/astro-settings
+Disallow: /*/astro-update-profile
+Disallow: /*/astro-video-call
+Disallow: /*/register
+Disallow: /*/user-details
+Disallow: /*/user-otp
+Disallow: /*/user-audio-call
+Disallow: /*/user-call-service
+Disallow: /*/user-chat
+Disallow: /*/user-chat-service
+Disallow: /*/user-help-support
+Disallow: /*/user-janam-kundali
+Disallow: /*/user-numerology
+Disallow: /*/user-order-history
+Disallow: /*/user-recharge
+Disallow: /*/user-settings
+Disallow: /*/user-video-call
+Disallow: /*/user-videocall-service
+Disallow: /*/user-wallet
+
+# Allow indexing of locale-specific public pages
+Allow: /*/contact
+Allow: /*/services
+Allow: /*/about
+Allow: /*/cookie-policy
+Allow: /*/privacy-policy
+Allow: /*/terms-and-conditions
+Allow: /*/daily-horoscope
+Allow: /*/astrologer-profile
+
+# Sitemap URL
+Sitemap: https://astrosway.com/sitemap.xml
+
+# Crawl delay to prevent server overload
+Crawl-delay: 2
+
+# Clean params - important for locale handling
+Clean-param: ref / 
+Clean-param: utm_source /
+Clean-param: utm_medium /
+Clean-param: utm_campaign /
+Clean-param: gclid /
+
+# Handle locale parameter correctly
+Clean-param: locale /
+
+# Special instructions for search engines
+User-agent: Googlebot
+Allow: /*/daily-horoscope
+Allow: /*/astrologer-profile
+Allow: /*/about
+Allow: /*/services
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /*/daily-horoscope
+Allow: /*/astrologer-profile
+Allow: /*/about
+Crawl-delay: 2
+
+User-agent: Yandex
+Crawl-delay: 3
+Disallow: /*.js$
+Disallow: /*.css$
+
+# Block AI crawlers
+User-agent: ChatGPT-User
+Disallow: /
+User-agent: GPTBot
+Disallow: /
+User-agent: CCBot
+Disallow: /
+User-agent: FacebookBot
+Disallow: /
+User-agent: Applebot
+Disallow: /
+User-agent: Anthropic-ai
+Disallow: /
+User-agent: Claude-Web
+Disallow: /
+User-agent: PerplexityBot
+Disallow: /
+
+# Additional directives
+Request-rate: 1/5    # Max 1 request per 5 seconds
+Visit-time: 0200-0600 # Crawl during low-traffic hours
+Host: https://astrosway.com
+
+# Allow indexing of root pages without locale (optional)
+Allow: /contact
+Allow: /services
+Allow: /about
+Allow: /daily-horoscope
+Allow: /privacy-policy
+Allow: /terms-and-conditions
+Allow: /cookie-policy
+
+# Language-specific instructions (if needed)
+User-agent: Googlebot
+Allow: /en/
+Allow: /hi/
+Allow: /gu/
+
+# Block bad bots
+User-agent: MJ12bot
+Disallow: /
+User-agent: AhrefsBot
+Disallow: /
+User-agent: SemrushBot
+Disallow: /
+User-agent: DotBot
+Disallow: /
