@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="flex flex-col items-center sm:items-start space-y-4">
             <div className="flex items-center space-x-3">
               <AppIcon size={48} className="flex-shrink-0 text-primary" />
-              <h3 className="text-xl font-bold text-foreground">Astroway</h3>
+              <h3 className="text-xl font-bold text-foreground">Astrosway</h3>
             </div>
             <p className="text-sm text-muted-foreground text-center sm:text-left max-w-xs">
               Discover your cosmic journey with personalized astrological insights and guidance.
@@ -131,13 +131,13 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="border-t border-border pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-muted-foreground text-sm">&copy; 2026 Astroway. All rights reserved.</p>
+            <p className="text-muted-foreground text-sm">&copy; 2026 Astrosway. All rights reserved.</p>
             <p className="text-muted-foreground text-sm">
               <a
-                href="mailto:customercare@astroway.com"
+                href="mailto:astroway.customcare@gmail.com"
                 className="hover:text-primary transition-colors duration-200 font-medium"
               >
-                customercare@astroway.com
+                astroway.customcare@gmail.com
               </a>
             </p>
           </div>

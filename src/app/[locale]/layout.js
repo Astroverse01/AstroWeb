@@ -7,9 +7,9 @@ import Footer from "../components/footer";
 import { Toaster } from "@/components/ui/sonner";
 
 export const metadata = {
-  title: "Astroway - Your Cosmic Journey Begins",
+  title: "Astrosway - Your Cosmic Journey Begins",
   description:
-    "Discover the mysteries of the universe with Astroway. Professional astrology services, cosmic insights, and personalized readings.",
+    "Discover the mysteries of the universe with Astrosway. Professional astrology services, cosmic insights, and personalized readings.",
   generator: "v0.app",
 };
 

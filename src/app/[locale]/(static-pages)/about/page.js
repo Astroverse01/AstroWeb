@@ -19,7 +19,7 @@ export default function AboutPage() {
           <div className="flex justify-center mb-8">
             <StarsIcon className="text-primary w-32 h-32" />
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">About Us — Astroway</h1>
+          <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">About Us — Astrosway</h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Guiding You Through the Stars with Trust and Insight
           </p>
@@ -28,7 +28,7 @@ export default function AboutPage() {
         {/* Introduction */}
         <div className="max-w-4xl mx-auto mb-16">
           <p className="text-lg text-foreground leading-relaxed text-center">
-            At Astroway, we merge the timeless art of astroscience with modern accessibility to give you clarity,
+            At Astrosway, we merge the timeless art of astroscience with modern accessibility to give you clarity,
             confidence, and cosmic connection. We offer comprehensive support through chats, audio, and video
             consultations, detailed Kundli (birth chart) insights, and numerology readings—all delivered by our
             carefully verified astrologers.
@@ -99,7 +99,7 @@ export default function AboutPage() {
 
         {/* Why We're Unique */}
         <section className="mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-foreground">Why Astroway Is Unique</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-foreground">Why Astrosway Is Unique</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
             <div className="space-y-6">
               <div className="border-l-4 border-primary pl-6 flex items-start gap-4">
@@ -107,7 +107,7 @@ export default function AboutPage() {
                 <div>
                   <h3 className="text-xl font-semibold mb-2 text-foreground">Trust Builds Everything</h3>
                   <p className="text-muted-foreground">
-                    Every astrologer on Astroway is verified to ensure insightful and authentic guidance.
+                    Every astrologer on Astrosway is verified to ensure insightful and authentic guidance.
                   </p>
                 </div>
               </div>
@@ -158,7 +158,7 @@ export default function AboutPage() {
           </div>
           <div className="max-w-4xl mx-auto">
             <p className="text-lg text-foreground leading-relaxed">
-              Astroway aspires to be a digitally trusted haven for astroscience seekers—where ancient guidance meets
+              Astrosway aspires to be a digitally trusted haven for astroscience seekers—where ancient guidance meets
               modern technology, and every interaction fosters clarity, connection, and cosmic insight.
             </p>
           </div>

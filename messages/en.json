@@ -7,10 +7,10 @@
 
    "privacyPolicy": {
     "title": "Privacy Policy",
-    "intro": "We at Astroway (\"we\" or \"astroway\") take the privacy of the information you provide us very seriously. We created this privacy policy to demonstrate our commitment to privacy. Please read this carefully to understand how we use any information you provide us at",
+    "intro": "We at Astrosway (\"we\" or \"astrosway\") take the privacy of the information you provide us very seriously. We created this privacy policy to demonstrate our commitment to privacy. Please read this carefully to understand how we use any information you provide us at",
     "points": {
-      "confidentiality": "Astroway guarantees confidentiality of our members' identity, birth details and any forecasts made using those details as much as possible under the applicable legal, regulatory and security environment.",
-      "noMisuse": "Astroway further guarantees that no direct or indirect use will be made by Astroway of any information that is revealed in the prediction for a member, except for the explicit purpose of communicating the horoscope charts and predictions back to the member.",
+      "confidentiality": "Astrosway guarantees confidentiality of our members' identity, birth details and any forecasts made using those details as much as possible under the applicable legal, regulatory and security environment.",
+      "noMisuse": "Astrosway further guarantees that no direct or indirect use will be made by Astrosway of any information that is revealed in the prediction for a member, except for the explicit purpose of communicating the horoscope charts and predictions back to the member.",
       "profileAccess": "We allow members to access their user profiles and change information, as they deem necessary.",
       "noSell": "We do not sell or rent your personally identifiable information to anyone."
     },
@@ -19,7 +19,7 @@
       "whatWeCollect": "What Personal Information We Collect",
       "registrationData": {
         "title": "Registration Data",
-        "desc": "During membership registration, Astroway collects personal information including your name, gender, birth information, email address, phone number and your place of birth and residence. This information is used to calculate your accurate horoscope."
+        "desc": "During membership registration, Astrosway collects personal information including your name, gender, birth information, email address, phone number and your place of birth and residence. This information is used to calculate your accurate horoscope."
       },
       "security": {
         "title": "Security",
@@ -34,7 +34,7 @@
 
   "terms": {
     "title": "Terms and Conditions",
-    "intro": "Welcome to Astroway. These terms and conditions outline the rules and regulations for the use of Astroway's website.",
+    "intro": "Welcome to Astrosway. These terms and conditions outline the rules and regulations for the use of Astrosway's website.",
     "sections": {
       "acceptance": {
         "title": "Acceptance of Terms",
@@ -42,7 +42,7 @@
       },
       "useLicense": {
         "title": "Use License",
-        "desc": "Permission is granted to temporarily download one copy of the materials on Astroway's website for personal, non-commercial transitory viewing only.",
+        "desc": "Permission is granted to temporarily download one copy of the materials on Astrosway's website for personal, non-commercial transitory viewing only.",
         "bullets": {
           "licenseNotTitleTransfer": "This is the grant of a license, not a transfer of title",
           "noModifyCopy": "Under this license you may not modify or copy the materials",
@@ -52,12 +52,12 @@
       },
       "disclaimer": {
         "title": "Disclaimer",
-        "desc": "The materials on Astroway's website are provided on an 'as is' basis. Astroway makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights."
+        "desc": "The materials on Astrosway's website are provided on an 'as is' basis. Astrosway makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights."
       },
       "contact": {
         "title": "Contact Information",
         "desc": "If you have any questions about these Terms and Conditions, please contact us at",
-        "email": "customercare@astroway.com"
+        "email": "astrosway.customcare@gmail.com"
       }
     }
   }
