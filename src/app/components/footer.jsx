@@ -137,7 +137,7 @@ export default function Footer() {
                 href="mailto:astroway.customcare@gmail.com"
                 className="hover:text-primary transition-colors duration-200 font-medium"
               >
-                astroway.customcare@gmail.com
+                support@astrosway.com
               </a>
             </p>
           </div>
