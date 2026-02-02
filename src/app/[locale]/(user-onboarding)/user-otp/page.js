@@ -242,7 +242,7 @@ export default function UserOTPVerification() {
             </Button>
 
             <div className="text-center text-sm text-gray-600">
-              <p className="text-muted-foreground">Didn't receive the code?</p>
+              <p className="text-muted-foreground">Didn&apos;t receive the code?</p>
               <Button
                 variant="link"
                 onClick={handleResendOTP}

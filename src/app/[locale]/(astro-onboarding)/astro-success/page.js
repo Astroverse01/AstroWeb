@@ -47,14 +47,14 @@ export default function Success() {
           </h2>
           <p className="text-muted-foreground">
             Your profile is being reviewed and will be activated within 24
-            hours. You'll receive a notification once you're ready to start
+            hours. You&apos;ll receive a notification once you&apos;re ready to start
             receiving clients.
           </p>
         </div>
 
         {/* Next Steps */}
         <div className="bg-muted/30 p-4 rounded-lg text-left border border-border/50">
-          <h4 className="text-foreground font-semibold mb-2">What's next?</h4>
+          <h4 className="text-foreground font-semibold mb-2">What&apos;s next?</h4>
           <ul className="text-muted-foreground text-sm space-y-1">
             <li>• Profile review and verification</li>
             <li>• Set up your availability calendar</li>

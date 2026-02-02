@@ -158,7 +158,7 @@ export default function RegistrationPage() {
                   required
                 />
                 <p className="text-xs text-muted-foreground">
-                  We'll send a verification code to this email
+                  We&apos;ll send a verification code to this email
                 </p>
               </div>
 
@@ -173,7 +173,7 @@ export default function RegistrationPage() {
                   htmlFor="acceptTerms"
                   className="text-sm text-muted-foreground leading-relaxed cursor-pointer"
                 >
-                  I agree to Ahead's{" "}
+                  I agree to Ahead&apos;s{" "}
                   <Link
                     href="/terms-and-conditions"
                     className="text-black dark:text-white hover:underline font-medium"
