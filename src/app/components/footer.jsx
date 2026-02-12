@@ -18,28 +18,28 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4 pt-2">
               <Link
-                href="https://www.instagram.com/astroway_official"
+                href="https://www.instagram.com/astrosway_official"
                 className="text-muted-foreground hover:text-primary transition-colors duration-200 hover:scale-110 transform"
                 aria-label="Instagram"
               >
                 <Instagram size={22} />
               </Link>
-              {/* <Link
-                href="https://www.linkedin.com/in/gopal-kothari-04844936a"
+              <Link
+                href="https://www.linkedin.com/company/astrosway/"
                 className="text-muted-foreground hover:text-primary transition-colors duration-200 hover:scale-110 transform"
                 aria-label="Linkedin"
                 >
                 <Linkedin size={22} />
-              </Link> */}
+              </Link>
               <Link
-                href="https://www.youtube.com/@Astroway-d6x"
+                href="https://www.youtube.com/@Astrosway_official"
                 className="text-muted-foreground hover:text-primary transition-colors duration-200 hover:scale-110 transform"
                 aria-label="YouTube"
                 >
                 <Youtube size={22} />
               </Link>
               <Link
-                href="https://x.com/the_astroway"
+                href="https://x.com/the_astrosway"
                 className="text-muted-foreground hover:text-primary transition-colors duration-200 hover:scale-110 transform"
                 aria-label="Twitter"
               >
@@ -134,7 +134,7 @@ export default function Footer() {
             <p className="text-muted-foreground text-sm">&copy; 2026 Astrosway. All rights reserved.</p>
             <p className="text-muted-foreground text-sm">
               <a
-                href="mailto:astroway.customcare@gmail.com"
+                href="mailto:support@astrosway.com"
                 className="hover:text-primary transition-colors duration-200 font-medium"
               >
                 support@astrosway.com

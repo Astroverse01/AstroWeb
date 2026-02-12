@@ -208,7 +208,7 @@ export default function Header() {
               href="/"
               className="hover:text-primary transition-colors duration-200"
             >
-              Astroway
+              Astrosway
             </Link>
           </div>
 

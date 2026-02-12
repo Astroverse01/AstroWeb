@@ -136,8 +136,7 @@ export default function ContactPage() {
                   <Mail className="text-primary mt-1 flex-shrink-0" size={20} />
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Email</h3>
-                    <p className="text-muted-foreground">astroway.customcare@gmail.com</p>
-                    {/* <p className="text-muted-foreground">consultations@astroway.com</p> */}
+                    <p className="text-muted-foreground">support@astrosway.com</p>
                   </div>
                 </div>
               </CardContent>

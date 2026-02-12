@@ -214,8 +214,8 @@ export default function PrivacyPolicyPage() {
               <div className="space-y-2 text-muted-foreground">
                 <p>
                   <strong>Email:</strong>{" "}
-                  <a href="mailto:astroway.customcare@gmail.com" className="text-primary hover:underline">
-                  astroway.customcare@gmail.com
+                  <a href="mailto:support@astrosway.com" className="text-primary hover:underline">
+                  support@astrosway.com
                   </a>
                 </p>
                 {/* <p>
