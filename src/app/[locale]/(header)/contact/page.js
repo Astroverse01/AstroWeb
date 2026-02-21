@@ -175,7 +175,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Address</h3>
                     <p className="text-muted-foreground">J-139/1,</p>
-                    <p className="text-muted-foreground">Kotputli,</p>
+                    <p className="text-muted-foreground">Haripura, Neem ka Thane,</p>
                     <p className="text-muted-foreground">Sikar, Rajasthan</p>
                   </div>
                 </div>

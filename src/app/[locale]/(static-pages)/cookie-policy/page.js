@@ -197,7 +197,7 @@ export default function CookiePolicyPage() {
                   <strong>Phone:</strong> +91 8941841284
                 </p> */}
                 <p>
-                  <strong>Address:</strong> J-139/1, Kotputli, Sikar, Rajasthan
+                  <strong>Address:</strong> J-139/1, Haripura, Neem ka Thane, Sikar, Rajasthan
                 </p>
               </div>
             </CardContent>

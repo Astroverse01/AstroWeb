@@ -222,7 +222,7 @@ export default function PrivacyPolicyPage() {
                   <strong>Phone:</strong> +1 (555) 123-STAR
                 </p> */}
                 <p>
-                  <strong>Address:</strong> J-139/1, Kotputli, Sikar, Rajasthan
+                  <strong>Address:</strong> J-139/1, Haripura, Neem ka Thane, Sikar, Rajasthan
                 </p>
               </div>
             </CardContent>
