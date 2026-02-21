@@ -5,6 +5,9 @@ import { getMessages } from "next-intl/server";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import { Toaster } from "@/components/ui/sonner";
+import ClarityScript from "../components/analytics/ClarityScript";
+import { GoogleTagManager } from "@next/third-parties/google";
+// import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata = {
   title: "Astrosway - Your Cosmic Journey Begins",
@@ -22,6 +25,9 @@ export default async function LocaleLayout({ children, params }) {
     <html lang={locale} suppressHydrationWarning>
       <head>
         <link rel="icon" href="/favicon.png" />
+        <ClarityScript />
+        <GoogleTagManager gtmId="GTM-PRBKJKBM" />
+        {/* <GoogleAnalytics gaId="G-L3LT2TZLXP" /> */}
       </head>
       <body>
         <ThemeProvider
