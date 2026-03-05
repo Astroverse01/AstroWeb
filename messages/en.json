@@ -1,4 +1,11 @@
 {
+  "Home": {
+    "Hero": {
+      "title": "Unlock Your Cosmic Destiny",
+      "description": "Discover personalized astrology insights and guidance for your life's journey through the stars.",
+      "button": "Tap to Reveal Your Destiny"
+    }
+  },
   "Hero": {
     "title": "Unlock Your Cosmic Destiny",
     "description": "Discover personalized astrology insights and guidance for your life's journey through the stars.",

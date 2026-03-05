@@ -1,6 +1,6 @@
-import AppIcon from "@/components/icons/app-icon"
-import Link from "next/link"
-import { Instagram, Youtube, Twitter, Mail, Linkedin } from "lucide-react"
+import AppIcon from "@/components/icons/app-icon";
+import Link from "next/link";
+import { Instagram, Youtube, Twitter, Mail, Linkedin } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -14,7 +14,8 @@ export default function Footer() {
               <h3 className="text-xl font-bold text-foreground">Astrosway</h3>
             </div>
             <p className="text-sm text-muted-foreground text-center sm:text-left max-w-xs">
-              Discover your cosmic journey with personalized astrological insights and guidance.
+              Discover your cosmic journey with personalized astrological
+              insights and guidance.
             </p>
             <div className="flex space-x-4 pt-2">
               <Link
@@ -28,14 +29,14 @@ export default function Footer() {
                 href="https://www.linkedin.com/company/astrosway/"
                 className="text-muted-foreground hover:text-primary transition-colors duration-200 hover:scale-110 transform"
                 aria-label="Linkedin"
-                >
+              >
                 <Linkedin size={22} />
               </Link>
               <Link
                 href="https://www.youtube.com/@Astrosway_official"
                 className="text-muted-foreground hover:text-primary transition-colors duration-200 hover:scale-110 transform"
                 aria-label="YouTube"
-                >
+              >
                 <Youtube size={22} />
               </Link>
               <Link
@@ -66,6 +67,14 @@ export default function Footer() {
                   className="text-muted-foreground hover:text-primary transition-colors duration-200 text-sm font-medium"
                 >
                   About
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/faq"
+                  className="text-muted-foreground hover:text-primary transition-colors duration-200 text-sm font-medium"
+                >
+                  Faq
                 </Link>
               </li>
               <li>
@@ -112,8 +121,12 @@ export default function Footer() {
 
           {/* Newsletter Section */}
           <div className="space-y-4">
-            <h4 className="text-lg font-semibold text-foreground">Newsletter</h4>
-            <p className="text-muted-foreground text-sm leading-relaxed">Get cosmic insights delivered to your inbox</p>
+            <h4 className="text-lg font-semibold text-foreground">
+              Newsletter
+            </h4>
+            <p className="text-muted-foreground text-sm leading-relaxed">
+              Get cosmic insights delivered to your inbox
+            </p>
             <div className="space-y-3">
               <input
                 type="email"
@@ -131,7 +144,9 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="border-t border-border pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-muted-foreground text-sm">&copy; 2026 Astrosway. All rights reserved.</p>
+            <p className="text-muted-foreground text-sm">
+              &copy; 2026 Astrosway. All rights reserved.
+            </p>
             <p className="text-muted-foreground text-sm">
               <a
                 href="mailto:support@astrosway.com"
@@ -144,5 +159,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }

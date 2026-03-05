@@ -25,30 +25,6 @@ import {
 import { RequireUserComplete } from "@/hooks/userGuard";
 import dynamic from "next/dynamic";
 import { useTheme } from "next-themes";
-import AriesLight from "@/svg/horoscopes/lightmode/Aries";
-import TaurusLight from "@/svg/horoscopes/lightmode/Taurus";
-import GeminiLight from "@/svg/horoscopes/lightmode/Gemini";
-import CancerLight from "@/svg/horoscopes/lightmode/Cancer";
-import LeoLight from "@/svg/horoscopes/lightmode/Leo";
-import VirgoLight from "@/svg/horoscopes/lightmode/Virgo";
-import LibraLight from "@/svg/horoscopes/lightmode/Libra";
-import ScorpioLight from "@/svg/horoscopes/lightmode/Scorpio";
-import SagittariusLight from "@/svg/horoscopes/lightmode/Sagittarius";
-import CapricornLight from "@/svg/horoscopes/lightmode/Capricorn";
-import AquariusLight from "@/svg/horoscopes/lightmode/Aquarius";
-import PiscesLight from "@/svg/horoscopes/lightmode/Pisces";
-import AriesDark from "@/svg/horoscopes/darkmode/Aries";
-import TaurusDark from "@/svg/horoscopes/darkmode/Taurus";
-import GeminiDark from "@/svg/horoscopes/darkmode/Gemini";
-import CancerDark from "@/svg/horoscopes/darkmode/Cancer";
-import LeoDark from "@/svg/horoscopes/darkmode/Leo";
-import VirgoDark from "@/svg/horoscopes/darkmode/Virgo";
-import LibraDark from "@/svg/horoscopes/darkmode/Libra";
-import ScorpioDark from "@/svg/horoscopes/darkmode/Scorpio";
-import SagittariusDarkTypo from "@/svg/horoscopes/darkmode/Sagarittus";
-import CapricornDark from "@/svg/horoscopes/darkmode/Capricorn";
-import AquariusDark from "@/svg/horoscopes/darkmode/Aquarius";
-import PiscesDark from "@/svg/horoscopes/darkmode/Pisces";
 import {
   Heart,
   Briefcase,
@@ -59,36 +35,38 @@ import {
   Baby,
   Scale,
 } from "lucide-react";
+import Image from "next/image";
 
 /* --------------------------------- DATA ----------------------------------- */
 const ZODIAC = [
-  { key: "Aries", slug: "aries", Light: AriesLight, Dark: AriesDark },
-  { key: "Taurus", slug: "taurus", Light: TaurusLight, Dark: TaurusDark },
-  { key: "Gemini", slug: "gemini", Light: GeminiLight, Dark: GeminiDark },
-  { key: "Cancer", slug: "cancer", Light: CancerLight, Dark: CancerDark },
-  { key: "Leo", slug: "leo", Light: LeoLight, Dark: LeoDark },
-  { key: "Virgo", slug: "virgo", Light: VirgoLight, Dark: VirgoDark },
-  { key: "Libra", slug: "libra", Light: LibraLight, Dark: LibraDark },
-  { key: "Scorpio", slug: "scorpio", Light: ScorpioLight, Dark: ScorpioDark },
+  { key: "Aries", slug: "aries", image: "/assets/images/zoodiac/Aries.jpg" },
+  { key: "Taurus", slug: "taurus", image: "/assets/images/zoodiac/Taurus.jpg" },
+  { key: "Gemini", slug: "gemini", image: "/assets/images/zoodiac/Gemini.jpg" },
+  { key: "Cancer", slug: "cancer", image: "/assets/images/zoodiac/Cancer.jpg" },
+  { key: "Leo", slug: "leo", image: "/assets/images/zoodiac/Leo.jpg" },
+  { key: "Virgo", slug: "virgo", image: "/assets/images/zoodiac/Virgo.jpg" },
+  { key: "Libra", slug: "libra", image: "/assets/images/zoodiac/Libra.jpg" },
+  {
+    key: "Scorpio",
+    slug: "scorpio",
+    image: "/assets/images/zoodiac/Scorpio.jpg",
+  },
   {
     key: "Sagittarius",
     slug: "sagittarius",
-    Light: SagittariusLight,
-    Dark: SagittariusDarkTypo,
+    image: "/assets/images/zoodiac/Sagittarius.jpg",
   },
   {
     key: "Capricorn",
     slug: "capricorn",
-    Light: CapricornLight,
-    Dark: CapricornDark,
+    image: "/assets/images/zoodiac/Capricorn.jpg",
   },
   {
     key: "Aquarius",
     slug: "aquarius",
-    Light: AquariusLight,
-    Dark: AquariusDark,
+    image: "/assets/images/zoodiac/Aquarius.jpg",
   },
-  { key: "Pisces", slug: "pisces", Light: PiscesLight, Dark: PiscesDark },
+  { key: "Pisces", slug: "pisces", image: "/assets/images/zoodiac/Pisces.jpg" },
 ];
 
 export default function DashboardPage() {
@@ -161,7 +139,7 @@ export default function DashboardPage() {
         { breakpoint: 360, settings: { slidesToShow: 1, slidesToScroll: 1 } }, // mobile
       ],
     }),
-    []
+    [],
   );
 
   const consultationSliderSettings = useMemo(
@@ -179,7 +157,7 @@ export default function DashboardPage() {
         { breakpoint: 480, settings: { slidesToShow: 1, slidesToScroll: 1 } }, // xs
       ],
     }),
-    []
+    [],
   );
 
   // Route mapping for Next.js paths (adjust if needed)
@@ -415,7 +393,7 @@ export default function DashboardPage() {
         { breakpoint: 360, settings: { slidesToShow: 1, slidesToScroll: 1 } }, // mobile
       ],
     }),
-    []
+    [],
   );
 
   // price label that works for both payloads
@@ -553,8 +531,8 @@ export default function DashboardPage() {
 
             <div className="zodiac-slider">
               <Slider {...sliderSettings}>
-                {ZODIAC.map(({ key, slug, dates, Light, Dark }) => {
-                  const Icon = themeKey === "Dark" ? Dark : Light;
+                {ZODIAC.map(({ key, slug, image }) => {
+                 
                   return (
                     <div key={slug} className="p-1 sm:p-2">
                       <button
@@ -565,12 +543,12 @@ export default function DashboardPage() {
                       >
                         <div className="bg-card dark:bg-gray-800 rounded-lg sm:rounded-xl border border-border/60 hover:shadow-md transition-all h-full">
                           <div className="flex flex-col items-center justify-center p-3 sm:p-4 lg:p-6 gap-2 sm:gap-3">
-                            <div className="h-12 w-12 sm:h-16 sm:w-16 lg:h-20 lg:w-20">
-                              {Icon ? (
-                                <Icon className="h-full w-full transition-transform group-hover:scale-105" />
-                              ) : (
-                                <div className="h-full w-full rounded-md bg-muted" />
-                              )}
+                            <div className="overflow-hidden rounded-xl sm:rounded-2xl">
+                              <img
+                                src={image}
+                                alt={key}
+                                className="w-full h-[90px] sm:h-[110px] lg:h-[130px] object-cover transition-transform group-hover:scale-105"
+                              />
                             </div>
                             <div className="text-center">
                               <div className="font-semibold text-foreground leading-tight text-xs sm:text-sm lg:text-base">
@@ -702,8 +680,8 @@ export default function DashboardPage() {
                       onClick={() =>
                         router.push(
                           `/astrologer-profile?id=${encodeURIComponent(
-                            item.astroId ?? idx
-                          )}`
+                            item.astroId ?? idx,
+                          )}`,
                         )
                       }
                     />
@@ -747,8 +725,8 @@ export default function DashboardPage() {
                       onClick={() =>
                         router.push(
                           `/astrologer-profile?id=${encodeURIComponent(
-                            item.astroId ?? idx
-                          )}`
+                            item.astroId ?? idx,
+                          )}`,
                         )
                       }
                     />
@@ -792,8 +770,8 @@ export default function DashboardPage() {
                       onClick={() =>
                         router.push(
                           `/astrologer-profile?id=${encodeURIComponent(
-                            item.astroId ?? idx
-                          )}`
+                            item.astroId ?? idx,
+                          )}`,
                         )
                       }
                     />
