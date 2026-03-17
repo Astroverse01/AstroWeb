@@ -24,7 +24,6 @@ export default async function LocaleLayout({ children, params }) {
   return (
     <html lang={locale} suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/favicon.png" />
         <ClarityScript />
         <GoogleTagManager gtmId="GTM-PRBKJKBM" />
         {/* <GoogleAnalytics gaId="G-L3LT2TZLXP" /> */}
