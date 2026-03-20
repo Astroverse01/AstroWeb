@@ -14,6 +14,11 @@ export const metadata = {
   description:
     "Discover the mysteries of the universe with Astrosway. Professional astrology services, cosmic insights, and personalized readings.",
   generator: "v0.app",
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
 };
 
 export default async function LocaleLayout({ children, params }) {
